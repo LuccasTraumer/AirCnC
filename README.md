@@ -8,20 +8,21 @@
 
 Screen Login               |  Screen Solicitation Spot
 :-------------------------:|:-------------------------:
-![Screen Login Mobile](https://github.com/LuccasTraumer/AirCnC/blob/master/Images_Mobile/Mobile_Screen_Login.png){height="50%" width="50%"} |  ![Screen Solicitation](https://github.com/LuccasTraumer/AirCnC/blob/master/Images_Mobile/Mobile_Screen_Solicitation.png){height="700px" width="400px"}
+![Screen Login Mobile|width=400px|height=700px](https://github.com/LuccasTraumer/AirCnC/blob/master/Images_Mobile/Mobile_Screen_Login.png) | ![Screen Solicitation|width=400px|height=700px](https://github.com/LuccasTraumer/AirCnC/blob/master/Images_Mobile/Mobile_Screen_Solicitation.png)
 
  
 
 ### Web with ReactJS 
 
-![Screen Login](https://github.com/LuccasTraumer/AirCnC/blob/master/Images_Web/Web_Screen_Login.jpg){:height="36px" width="36px"}
-
-![Main Screen after Login](https://github.com/LuccasTraumer/AirCnC/blob/master/Images_Web/Sem%20t%C3%ADtulo.png){:height="36px" width="36px"}
-
-![Solicitation](https://github.com/LuccasTraumer/AirCnC/blob/master/Images_Web/Solicitacao.png){:height="36px" width="36px"}
+{:height="36px" width="36px"}
 
 
-![Create a Spot in Web](https://github.com/LuccasTraumer/AirCnC/blob/master/Images_Web/Web_Create_Spot.jpg){:height="36px" width="36px"}
+![Screen Login|width=36px|height=36px](https://github.com/LuccasTraumer/AirCnC/blob/master/Images_Web/Web_Screen_Login.jpg)
+
+![Main Screen after Login|width=36px|height=36px](https://github.com/LuccasTraumer/AirCnC/blob/master/Images_Web/Sem%20t%C3%ADtulo.png)
+
+![Solicitation|width=36px|height=36px](https://github.com/LuccasTraumer/AirCnC/blob/master/Images_Web/Solicitacao.png)
 
 
+![Create a Spot in Web|width=36px|height=36px](https://github.com/LuccasTraumer/AirCnC/blob/master/Images_Web/Web_Create_Spot.jpg)
 
