@@ -16,10 +16,12 @@ Screen Login               |  Screen Solicitation Spot
 
 ![Screen Login](https://github.com/LuccasTraumer/AirCnC/blob/master/Images_Web/Web_Screen_Login.jpg){:height="36px" width="36px"}
 
+![Main Screen after Login](https://github.com/LuccasTraumer/AirCnC/blob/master/Images_Web/Sem%20t%C3%ADtulo.png){:height="36px" width="36px"}
+
 ![Solicitation](https://github.com/LuccasTraumer/AirCnC/blob/master/Images_Web/Solicitacao.png){:height="36px" width="36px"}
 
 
 ![Create a Spot in Web](https://github.com/LuccasTraumer/AirCnC/blob/master/Images_Web/Web_Create_Spot.jpg){:height="36px" width="36px"}
 
 
-![Main Screen after Login](https://github.com/LuccasTraumer/AirCnC/blob/master/Images_Web/Sem%20t%C3%ADtulo.png){:height="36px" width="36px"}
+
