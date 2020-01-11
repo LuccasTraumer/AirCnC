@@ -9,7 +9,7 @@ const routes = require('./routes.js')
 
 // Usadas
 const app = express();
-mongoose.connect('mongodb+srv://lucas:luccas@oministack-zdfzq.mongodb.net/test?retryWrites=true&w=majority',{
+mongoose.connect('*******',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
