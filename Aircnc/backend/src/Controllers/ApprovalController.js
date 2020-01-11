@@ -15,6 +15,12 @@ module.exports = {
         booking.approved = true;
 
         await booking.save();
+
+        const bookingUserSocket = require.connectUsers[booking.user];
+
+        if(bookingUserSocket){
+            require.io.to(bookingUserSocket).emit('booking_response',booking);
+        }
         return response.json(booking);
     }
 }

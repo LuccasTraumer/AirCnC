@@ -5,7 +5,7 @@ import { SafeAreaView,Text,Alert,StyleSheet,TextInput,TouchableOpacity, AsyncSto
 // Internas
 import api from '../services/api';
 
-export default function Book({navigation }){
+export default function Book({ navigation }){
 
     const [date,setDate] = useState('');
     const id = navigation.getParam('id');
@@ -13,17 +13,14 @@ export default function Book({navigation }){
     async function handlerSubmit(){
         const user_id = await AsyncStorage.getItem('user');
 
-        await api.post(`/spots/${id}/booking`,{
-            date
-            },
-            {
+        await api.post(`/spots/${id}/bookings`,{ date },{
                 headers:{user_id}
             })
 
-            Alert.alert('Solicitação de reserva enviada!')
+            Alert.alert('Solicitação de reserva enviada!');
 
             navigation.navigate('List')
-        }
+    }
     function handlerCancel(){
         navigation.navigate('List')
     }
