@@ -23,7 +23,7 @@ import api from '../services/api';
     },[])
 
     function handlerNavigate(id){
-        navigation.navigate('Book',{id})
+        navigation.navigate('Book',{id});
     }
 
     return (

@@ -13,6 +13,13 @@ module.exports = {
             date,
         });
         await booking.populate('spot').populate('user').execPopulate();
+
+        const ownerSocket = require.connectUsers[booking.spot.user];
+
+        if(ownerSocket){
+            require.io.to(ownerSocket).emit('booking_request',booking);
+        }
+
         return response.json(booking);
     }
 };

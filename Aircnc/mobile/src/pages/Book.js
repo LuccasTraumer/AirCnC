@@ -27,29 +27,29 @@ export default function Book({navigation }){
     function handlerCancel(){
         navigation.navigate('List')
     }
-    return 
-    (
-    <SafeAreaView style={styles.container}>
-        <Text style={styles.label}>DATA DE INTERESSE * </Text>
-            <TextInput
-                style={styles.input}
-                placeholder = "Qual data você quer reservar?"
-                placeholderTextColor = "#999"
-                autoCapitalize = "words"
-                autoCorrect = {false}
-                value={date}
-                onChangeText={setDate}
-            />
+        return( 
+            <SafeAreaView style={styles.container}>
+            <Text style={styles.label}>DATA DE INTERESSE * </Text>
+                <TextInput
+                    style={styles.input}
+                    placeholder = "Qual data você quer reservar?"
+                    placeholderTextColor = "#999"
+                    autoCapitalize = "words"
+                    autoCorrect = {false}
+                    value={date}
+                    onChangeText={setDate}
+                />
+    
+            <TouchableOpacity onPress = {handlerSubmit} style={styles.button}> 
+            <Text style={styles.buttonText}> Solicitar Reserva </Text>
+            </TouchableOpacity>
+    
+            <TouchableOpacity onPress = {handlerCancel} style={[styles.cancelButton,styles.button]}> 
+            <Text style={styles.buttonText}> Cancelar </Text>
+            </TouchableOpacity>
+        </SafeAreaView>
+    );
 
-        <TouchableOpacity onPress = {handlerSubmit} style={styles.button}> 
-        <Text style={styles.buttonText}> Solicitar Reserva </Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity onPress = {handlerCancel} style={[styles.cancelButton,styles.button]}> 
-        <Text style={styles.buttonText}> Cancelar </Text>
-        </TouchableOpacity>
-    </SafeAreaView>
-    )
 }
 
 const styles = StyleSheet.create({
