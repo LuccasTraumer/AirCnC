@@ -1,3 +1,5 @@
+![GitHub](https://img.shields.io/github/license/luccastraumer/aircnc)
+
 # AirCnC
 #### Repository dedicated for project of week Omnistack 9.0, where created a App with React Native, a web site with React JS and backend is a API create with NodeJS. API is the based for all plataforms, mobile and Web use the same API.
 
